@@ -1,0 +1,14 @@
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.50s;
+}
+.box:hover {
+    transform: translateX(20px);
+    transform: translateY(20px);
+}
